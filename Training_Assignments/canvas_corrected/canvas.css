@@ -1,0 +1,51 @@
+
+
+#mycanvas{
+    width: 100%;
+    border: 5px solid #000000;
+    background-color: rgb(142, 240, 173);
+}
+
+#img-data-div{
+    width: 50%;
+    max-width: 900px;
+    height: 200px;
+}
+.nav  a img{
+    max-width:50%;
+    height:auto;
+} 
+.head{
+    margin: auto;
+    width: 900px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-style: italic;
+    text-align: center;
+    text-decoration: rgb(246, 246, 248);
+    text-decoration-style: dotted;
+}
+.wrapper {
+    max-width: 900px;
+    margin: auto;
+    font-family: "Arial";
+}
+
+.nav {
+    width: 100%;
+    background-color: #ffffff;
+    overflow: auto;
+}
+
+.nav  a {
+    float: left;
+    width: 11%;
+    text-align: center;
+    padding: 6px 6px;
+    transition: all 0.5s ease;
+    color: white;
+}
+.selected {
+    background-color: rgb(212, 148, 52); 
+}
