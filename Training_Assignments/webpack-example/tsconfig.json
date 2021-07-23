@@ -1,0 +1,17 @@
+{
+    "compileroptions":{
+        "module": "es6",
+        "target": "es5",
+        "outDir":"./build",
+        "sourceMap": true,
+        "strict" : true,
+        "noImplecitAny": true,
+        "noUnusedLocals": true,
+        "moduleResolution": "Node",
+        "esModuleInterop": true
+    },
+    "include":["ts/**/*.ts"],
+    "exclude":[
+        "node_modules"
+    ]
+}
